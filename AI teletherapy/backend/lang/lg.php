@@ -1,0 +1,20 @@
+<?php
+return [
+    'welcome' => 'Kulika',
+    'login' => 'Yingira',
+    'logout' => 'Fulumira',
+    'username' => 'Erinnya',
+    'password' => 'Akasumuluzo',
+    'admin_panel' => 'Ekitundu ky\'Abakulu',
+    'view_messages' => 'Laba Obubaka',
+    'view_users' => 'Laba Abakozesa',
+    'view_architecture' => 'Laba Enkola y\'Ekitundu',
+    'send_message' => 'Sindikira Obubaka',
+    'add_user' => 'Gatta Omukozi',
+    'delete_user' => 'Gyawo Omukozi',
+    'recipient' => 'Omuweereza',
+    'subject' => 'Mutwe gw\'Obubaka',
+    'message' => 'Obubaka',
+    'submit' => 'Weereza',
+    'back_to_admin' => 'Dda ku Kifo ky\'Abakulu',
+];

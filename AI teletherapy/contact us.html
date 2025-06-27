@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with AI Teletherapy for inquiries, support, or feedback.">
+    <title>Contact Us - AI Teletherapy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* White background */
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .nav-menu {
+            margin-top: 1rem;
+        }
+        .nav-menu a {
+            margin: 0 1rem;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav-menu a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+        input, textarea, button {
+            margin-top: 0.5rem;
+            padding: 0.8rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .contact-info {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .contact-info p {
+            margin: 0.5rem 0;
+        }
+        .contact-info a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .live-chat {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .features-section {
+            margin-top: 2rem;
+        }
+        .features-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .feature {
+            flex: 1 1 calc(50% - 2rem);
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .feature h3 {
+            color: #4CAF50;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1rem 0;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+    <script>
+        function startLiveChat() {
+            alert("Starting live chat...");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <a href="index.html" style="display: flex; align-items: center;">
+            <img src="logo.png" alt="Platform Logo" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-right: 10px;" />
+        </a>
+        <h1 style="margin: 10px 0;">Contact Us</h1> <!-- Reduced margin to decrease header height -->
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="how-it-works.html">How It Works</a>
+            <a href="faqs.html">FAQs</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact%20us.html">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>We'd Love to Hear From You</h2>
+        <p>If you have any questions, feedback, or need assistance with our AI teletherapy services, please fill out the form below. Our team will get back to you as soon as possible.</p>
+        <form action="backend/save_message.php" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Your email address" required>
+            
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject of your message" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Additional Contact Information -->
+    <div class="container contact-info">
+        <h2>Other Ways to Reach Us</h2>
+        <p><strong>Email:</strong> <a href="mailto:support@aiteletherapy.ug">support@aiteletherapy.ug</a></p>
+        <p><strong>Phone:</strong> +256 701 234567</p>
+        <p><strong>Address:</strong> Plot 123, Kampala Road, Kampala, Uganda</p>
+        <p>Follow us on social media:</p>
+        <p>
+            <a href="https://facebook.com/aiteletherapyug" target="_blank">Facebook</a> | 
+            <a href="https://twitter.com/aiteletherapyug" target="_blank">Twitter</a> | 
+            <a href="https://linkedin.com/company/aiteletherapyug" target="_blank">LinkedIn</a>
+        </p>
+    </div>
+
+    <!-- Features Section -->
+    <div class="container features-section">
+        <h2>Platform Features</h2>
+        <div class="features-container">
+            <div class="feature">
+                <h3>Personalized Therapy Plans</h3>
+                <p>AI-driven insights to create tailored therapy plans for every individual.</p>
+            </div>
+           
+            <div class="feature">
+                <h3>24/7 AI Chat Support</h3>
+                <p>Instant assistance anytime, anywhere.</p>
+            </div>
+           
+        </div>
+    </div>
+
+   
+    <footer>
+        <p>&copy; 2025 AI Teletherapy. All rights reserved.</p>
+        <nav>
+            <a href="privacy-policy.html">Privacy Policy</a> |
+            <a href="terms.html">Terms & Conditions</a> |
+            <a href="support.html">Support</a>
+        </nav>
+    </footer>
+</body>
+</html>

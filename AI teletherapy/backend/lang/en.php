@@ -1,0 +1,20 @@
+<?php
+return [
+    'welcome' => 'Welcome',
+    'login' => 'Login',
+    'logout' => 'Logout',
+    'username' => 'Username',
+    'password' => 'Password',
+    'admin_panel' => 'Admin Panel',
+    'view_messages' => 'View Messages',
+    'view_users' => 'View Users',
+    'view_architecture' => 'View System Architecture',
+    'send_message' => 'Send Message',
+    'add_user' => 'Add User',
+    'delete_user' => 'Delete User',
+    'recipient' => 'Recipient',
+    'subject' => 'Subject',
+    'message' => 'Message',
+    'submit' => 'Submit',
+    'back_to_admin' => 'Back to Admin Panel',
+];
