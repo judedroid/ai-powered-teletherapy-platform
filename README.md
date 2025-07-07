@@ -39,6 +39,14 @@ This project is open-source and intended for learning and academic use.
 
 Developed by:
 -------------
-Group 49  
+Group 49 
+S/NO. | NAME                | REGISTRATION        
+------|---------------------|---------------------
+1     | SSEMAMBO JUDE       | 2023/ITB/DAY/1504   
+2     | MUKIIBI ARAHAM      | 2023/ITB/DAY/0637   
+3     | KAGANZI NOVA        | 2023/ITB/DAY/0613   
+4     | TUMWEBAZE JEMMAH    | 2023/ITB/DAY/1270/G 
+5     | TIBAIRE BRAIZE      | 2023/ITB/DAY/1271/G 
+6     | BUSINGE SILVER      | 2023/ITB/DAY/1061   
 Diploma in IT for Business – UICT  
 Supervisor: Mr. Ssentongo Musa
